@@ -1,0 +1,31 @@
+package Day11.InterfacTas.Dateandtime;
+import java.sql.SQLOutput;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.util.Locale;
+
+public class DataandTime {
+    public static void main(String[] args) {
+
+// ________date Print_______-
+        LocalDate date = LocalDate.now();
+        System.out.println("The Current Data is :" + date);
+        System.out.println("____________________________");
+
+//---------Current Time__________
+        LocalTime time = LocalTime.now();
+        System.out.println("The Current Data is :" + time);
+        System.out.println("____________________________");
+//___________current time and date combined--------------
+        LocalDateTime current = LocalDateTime.now();
+        System.out.println("current date and time : " + current);
+        System.out.println("____________________________");
+    }
+}
+
+
+
+
+
+

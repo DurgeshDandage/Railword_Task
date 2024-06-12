@@ -1,0 +1,16 @@
+package Day11.InterfacTas;
+
+
+public class ArithematicOperator {
+    public static void main(String[] args) {
+
+        String numstr ="$2000";
+
+        String s = numstr.replace("$","");  //"2000"
+        int num = Integer.parseInt(s);  // converting in interger
+        num = num + 1;
+        String incrementedNumStr = Integer.toString(num);
+        System.out.println("Incremented number : $ " + incrementedNumStr);
+    }
+
+}
